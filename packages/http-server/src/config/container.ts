@@ -1,6 +1,6 @@
 import { Container } from 'inversify'
 import { interfaces } from 'inversify-koa'
-import { TYPE, IEnvironmentConfig } from '@enso/framework'
+import { TYPE, IEnvironmentConfig } from '@enso-ts/framework'
 
 import { IndexController } from '../IndexController'
 import { $b } from './bindings'
