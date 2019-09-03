@@ -1,11 +1,8 @@
-# A basic HTTP server
+# Koa + TypeORM w/ Postgres
 
 This starter demonstrates the following:
 
 * How to load `.env` secrets safely
 * Registering a `controller` with our `container`
-* Registering a constant with our `container`
-* Constructor injection
-* ES7 controller decorators
-* Creating `TestHarness` for `intergration` tests
-* A working `jest` test runner
+* Creating a `Registry`
+* Waiting for our database to connect before starting a server

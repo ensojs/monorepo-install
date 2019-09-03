@@ -1,32 +1,39 @@
 import 'reflect-metadata'
 
 import { App } from './App'
+import Debug from 'debug'
+
+const debug = Debug('enso:server')
+
 import { env } from './config/env'
-import { buildContainer } from './config/container'
+import { createRegistry } from './config/registry'
 
 (async () => {
   try {
-    console.log('============================================')
-    console.log('> Starting server...')
-    console.log('============================================')
+    debug('============================================')
+    debug('> Starting server...')
+    debug('============================================')
 
-    const container = await buildContainer()
+
+    debug('> Creating registry for dependency injection')
+    const container = await createRegistry()
 
     const app = new App(env)
     await app.build(container)
     await app.start()
 
-    console.log('')
-    console.log('✔ [nodejs] %s', process.version)
-    console.log('')
-    console.log(
+
+    debug('')
+    debug('✔ [nodejs] %s', process.version)
+    debug('')
+    debug(
       '✔ API server listening on port %d in [%s] mode',
       env.PORT,
       env.ENVIRONMENT
     )
-
+    // debug('✔ API version %s', pkg.version)
   } catch (e) {
-    console.log(e)
+    debug(e)
     process.exit(1)
   }
 })()
