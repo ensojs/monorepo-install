@@ -1,14 +1,15 @@
 {
   "name": "http-server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A bare koa HTTP server",
   "main": "src/server.ts",
   "scripts": {
-    "start": "DEBUG=* ts-node -r tsconfig-paths/register src/server.ts",
+    "dev": "DEBUG=* ts-node -r tsconfig-paths/register src/server.ts",
     "test": "jest"
   },
   "license": "MIT",
   "dependencies": {
+    "@enso-ts/framework": "0.6.0",
     "dotenv-safe": "^6.1.0",
     "inversify": "^5.0.1",
     "inversify-koa": "^1.0.3",
