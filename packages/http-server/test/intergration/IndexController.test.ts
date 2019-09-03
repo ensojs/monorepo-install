@@ -1,4 +1,4 @@
-import { TestHarness } from '@enso-ts/framework'
+import { TestHarness } from '@ensojs/framework'
 import { buildTestHarness } from '../utils/buildTestHarness'
 
 describe('IndexController', () => {

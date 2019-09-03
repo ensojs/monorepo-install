@@ -1,4 +1,4 @@
-import { HTTPServer } from '@enso-ts/framework'
+import { HTTPServer } from '@ensojs/framework'
 
 export class App extends HTTPServer {
   applyMiddleware (): void {}

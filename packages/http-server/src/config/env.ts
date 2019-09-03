@@ -1,5 +1,5 @@
 import dotenv from 'dotenv-safe'
-import { IEnvironmentConfig } from '@enso-ts/framework'
+import { IEnvironmentConfig } from '@ensojs/framework'
 
 dotenv.config({
   allowEmptyValues: false

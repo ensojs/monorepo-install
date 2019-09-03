@@ -1,4 +1,4 @@
-import { IEnvironmentConfig } from '@enso-ts/framework'
+import { IEnvironmentConfig } from '@ensojs/framework'
 import { injectable, inject } from 'inversify'
 import { interfaces, controller, httpGet } from 'inversify-koa'
 import * as Router from 'koa-router'

@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@enso-ts/framework@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@enso-ts/framework/-/framework-0.6.0.tgz#c30efaa404cceaacd6f04c228207f83fb0c73c05"
-  integrity sha512-cdgbEi0T8c1OVIWV4P+P3l1lROUdyd4PVe/ca0zTH22DtIFNCsPeXyazD5OaHXhVAWMtCUx8tnoh9nmDQHDxWQ==
+"@ensojs/framework@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@ensojs/framework/-/framework-0.8.1.tgz#678fec31c4603976df6b36dfcd274b0b4f04864a"
+  integrity sha512-H83YU+kRXLMpEkSjDqHUgEQYqYRRwFu72Dq1k29NZFr0ARfODYrbXRDBHMcztoF6cP6UmufzTlvu9qcifS8vpg==
   dependencies:
     "@koa/cors" "^2.2.2"
     class-validator "^0.9.1"

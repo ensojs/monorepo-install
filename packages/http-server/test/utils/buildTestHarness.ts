@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 
-import { TestHarness } from '@enso-ts/framework'
+import { TestHarness } from '@ensojs/framework'
 
 import { App } from '../../src/App'
 import { env } from '../../src/config/env'
