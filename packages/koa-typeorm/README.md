@@ -6,3 +6,4 @@ This starter demonstrates the following:
 * Registering a `controller` with our `container`
 * Creating a `Registry`
 * Waiting for our database to connect before starting a server
+* Expose the `typeorm` CLI
