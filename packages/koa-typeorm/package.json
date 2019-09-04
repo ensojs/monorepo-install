@@ -5,7 +5,12 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "DEBUG=* ts-node -r tsconfig-paths/register src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "migration:create": "ts-node --transpile-only -r tsconfig-paths/register ../../node_modules/typeorm/cli.js migration:create",
+    "migration:revert": "ts-node --transpile-only -r tsconfig-paths/register ../../node_modules/typeorm/cli.js migration:revert",
+    "migration:run": "ts-node --transpile-only -r tsconfig-paths/register ../../node_modules/typeorm/cli.js migration:run",
+    "schema:drop": "ts-node --transpile-only -r tsconfig-paths/register ../../node_modules/typeorm/cli.js schema:drop",
+    "typeorm": "ts-node --transpile-only -r tsconfig-paths/register ../../node_modules/typeorm/cli.js"
   },
   "license": "MIT",
   "dependencies": {
