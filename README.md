@@ -2,7 +2,7 @@
 
 The aim of this repo is to provide working examples that exist in the context of a monorepo.
 
-They also aim to supplement the recipe documenation that is currently available here <https://enso-tmp-b443be.netlify.com>
+They also aim to supplement the recipes that is currently [documented](http://ensojs.netlify.com/)
 
 ## Contributing
 
