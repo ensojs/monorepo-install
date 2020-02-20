@@ -19,7 +19,7 @@
     "inversify": "^5.0.1",
     "inversify-koa": "^1.0.3",
     "koa-router": "^7.4.0",
-    "pg": "7.18.1",
+    "pg": "7.18.2",
     "typeorm": "0.2.22"
   },
   "devDependencies": {
