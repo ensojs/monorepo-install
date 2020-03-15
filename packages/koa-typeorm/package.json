@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ensojs/framework": "0.9.2",
+    "@ensojs/framework": "0.9.5",
     "dotenv-safe": "^6.1.0",
     "inversify": "^5.0.1",
     "inversify-koa": "^1.0.3",
