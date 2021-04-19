@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/dotenv-safe": "5.0.4",
-    "@types/jest": "^23.3.10",
+    "@types/jest": "23.3.14",
     "@types/koa-router": "^7.0.32",
     "@types/supertest": "^2.0.7",
     "jest-cli": "^23.6.0",
