@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "lerna": "3.22.1",
-    "typescript": "3.9.9"
+    "typescript": "3.9.10"
   }
 }
