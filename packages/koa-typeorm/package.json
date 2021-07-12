@@ -27,7 +27,7 @@
     "@types/jest": "23.3.14",
     "@types/koa-router": "7.4.4",
     "@types/supertest": "2.0.11",
-    "jest-cli": "^23.6.0",
+    "jest-cli": "23.6.0",
     "reflect-metadata": "0.1.13",
     "supertest": "^4.0.2",
     "ts-jest": "^23.10.5",
